@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using NUnit.Framework;
 
 namespace TeamCityExample.Tests
@@ -16,5 +13,14 @@ namespace TeamCityExample.Tests
             Assert.That("Hello: world",Is.EqualTo(helloWorld.SayHi("world")));
         }
 
+        [Test]
+        public void TestBogOff()
+        {
+            var helloWorld = new HelloWorld();
+
+            Assert.That("Hello: world", Is.EqualTo(helloWorld.GetStuffed("world")));
+        }
+         
+         
     }
-}
+}  

@@ -1,0 +1,10 @@
+<PartCoverSettings>
+  <Target>nunit-console-x86.exe</Target>
+  <TargetWorkDir>C:\Users\john.nolan\Code\TeamCityExample\TeamCityExample.Tests\bin\debug</TargetWorkDir>
+  <TargetArgs>TeamCityExample.Tests.dll</TargetArgs>
+  <log_level>0</log_level>
+  <Rule>+[*]*</Rule>
+  <Rule>+[TeamCityExample]*</Rule> 
+  <Rule>-[nunit*]*</Rule>
+  <Rule>-[*Test*]*</Rule>
+</PartCoverSettings>

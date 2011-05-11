@@ -1,0 +1,27 @@
+<PartCoverReport version="4.0" date="2011-05-11T10:36:31.6566343+01:00">
+ <Assembly id="1" name="TeamCityExample" module="C:\Users\john.nolan\AppData\Local\Temp\nunit20\ShadowCopyCache\6912_634407069903645051\Tests_178930120\assembly\dl3\6852108b\01243251_080fcc01\TeamCityExample.DLL" domain="test-domain-TeamCityExample.Tests.dll" domainIdx="1" />
+ <Type asmref="1" name="TeamCityExample.HelloWorld" flags="0">
+  <Method methoddef="100663297" name="SayHi" sig="string  (string)" bodysize="29" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="1" />
+   <pt visit="1" pos="1" len="14" />
+   <pt visit="1" pos="15" len="14" />
+  </Method>
+  <Method methoddef="100663298" name="GetStuffed" sig="string  (string)" bodysize="93" flags="0" iflags="0">
+   <pt visit="1" pos="0" len="1" />
+   <pt visit="1" pos="1" len="15" />
+   <pt visit="1" pos="16" len="3" />
+   <pt visit="0" pos="19" len="14" />
+   <pt visit="1" pos="33" len="15" />
+   <pt visit="1" pos="48" len="3" />
+   <pt visit="1" pos="51" len="14" />
+   <pt visit="0" pos="65" len="14" />
+   <pt visit="1" pos="79" len="14" />
+  </Method>
+  <Method methoddef="100663299" name="noop2" sig="void  ()" bodysize="5" flags="0" iflags="0" />
+  <Method methoddef="100663300" name="noop" sig="void  ()" bodysize="5" flags="0" iflags="0" />
+  <Method methoddef="100663301" name=".ctor" sig="void  ()" bodysize="8" flags="0" iflags="0">
+   <pt visit="2" pos="0" len="6" />
+   <pt visit="2" pos="6" len="2" />
+  </Method>
+ </Type>
+</PartCoverReport>

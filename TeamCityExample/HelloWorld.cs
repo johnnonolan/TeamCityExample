@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace TeamCityExample
+﻿namespace TeamCityExample
 {
     public class HelloWorld
     {
@@ -11,5 +6,27 @@ namespace TeamCityExample
         {
             return "Hello: "+ hello;
         }
+
+        public string GetStuffed(string hello)
+        {
+            if (hello == "Steve")
+              return "Bog off: " + hello;
+            if (hello == "world")
+              return "Hello: " + hello;
+            return "Get Stuffed" + hello;
+        }
+
+
+        public void noop2()
+        {
+            return;
+        }
+
+
+        public void noop()
+        {
+            return;
+        }
+
     }
 }
